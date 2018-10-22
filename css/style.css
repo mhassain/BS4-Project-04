@@ -1,0 +1,136 @@
+/*======== Navbar ==========*/
+.navbar .nav-item {
+  padding-left: 1em; }
+  .navbar .nav-item .nav-link {
+    font-size: 14px;
+    text-transform: uppercase; }
+
+.navbar .active {
+  border-left: 3px solid #444; }
+
+/*======== carousel ==========*/
+.carousel-item {
+  height: 450px; }
+
+.carousel-image-1 {
+  background: url(../img/image1.jpeg);
+  background-size: cover; }
+
+.carousel-image-2 {
+  background: url(../img/image2.jpeg);
+  background-size: cover; }
+
+.carousel-image-3 {
+  background: url(../img/image3.jpeg);
+  background-size: cover; }
+
+/*======== HOME ICONS ==========*/
+#home-icons i {
+  font-size: 3.5em; }
+
+/*======== HOME GET-STARTED ==========*/
+#get-started, #video {
+  background: url(../img/pc.jpeg);
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  min-height: 250px;
+  position: relative; }
+  #get-started .dark-overlay, #video .dark-overlay {
+    background-color: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%; }
+
+/*======== VIDEO SECTION ==========*/
+#video {
+  background: url(../img/people.jpeg); }
+  #video i, #video h2 {
+    font-size: 3em; }
+
+/*=================== ABOUT PAGE ==============*/
+#about-header, #services-header, #blog-header, #contact-header {
+  background: url(../img/image1.jpeg);
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  position: relative;
+  min-height: 200px; }
+
+#about img {
+  width: 350px;
+  height: 350px; }
+
+#icon-boxes i {
+  font-size: 3.5em; }
+
+/*=================== SERVICES PAGE ================*/
+#services-header {
+  background: url(../img/image2.jpeg);
+  background-attachment: fixed; }
+
+#services .list-group {
+  font-size: 20px; }
+
+/*=================== BLOG PAGE ================*/
+#blog-header {
+  background: url(../img/image3.jpeg);
+  background-attachment: fixed; }
+
+/*=============== CONTACT SECTION ===============*/
+#contact-header {
+  background: url(../img/image4.jpeg);
+  background-attachment: fixed; }
+
+/*========= COPYRIGHT SECTION =========*/
+#copyright {
+  background-color: #000; }
+
+/*========================= Media Query ====================*/
+@media (max-width: 768px) {
+  .nav-item {
+    padding-left: 0 !important; }
+  #get-started, #video {
+    min-height: 400px; }
+  #info h3 {
+    font-size: 1.5em; }
+  #info p {
+    font-size: 1.2em; }
+  #info a {
+    font-size: 1em;
+    margin-bottom: 2em; } }
+
+/*==== Media Query End (768)=====*/
+@media (max-width: 575px) {
+  .carousel-item h1 {
+    font-size: 2.5rem; }
+  #get-started, #video {
+    min-height: 400px; }
+    #get-started h1, #video h1 {
+      font-size: 1.5em; }
+    #get-started p, #video p {
+      font-size: 1.4em; }
+  #info h3 {
+    font-size: 1.5em; }
+  #info p {
+    font-size: 1.2em; }
+  #info a {
+    font-size: 1em;
+    margin-bottom: 2em; }
+  #video {
+    min-height: 200px; }
+    #video i, #video h2 {
+      font-size: 2em; }
+  .card {
+    margin-bottom: 1em; }
+  #about img {
+    width: 250px;
+    height: 250px; }
+  #about .emage {
+    text-align: center !important; } }
+
+/*==== Media Query End (575)=====*/

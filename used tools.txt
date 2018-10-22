@@ -1,0 +1,7 @@
+The tools that used in this project:
+
+1. https://getuikit.com/ 
+(used for Sticky navbar in home.html page)
+
+2. http://kenwheeler.github.io/slick/ 
+(used for slide in testimonial section in about.html page)
